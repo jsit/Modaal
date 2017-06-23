@@ -753,6 +753,7 @@
 						});
 					} else {
 						prev_btn.stop().css({
+							'display': 'block',
 							'opacity': prev_btn.css('opacity')
 						}).animate({
 							opacity: 1
@@ -766,6 +767,7 @@
 						});
 					} else {
 						next_btn.stop().css({
+							'display': 'block',
 							'opacity': prev_btn.css('opacity')
 						}).animate({
 							opacity: 1
